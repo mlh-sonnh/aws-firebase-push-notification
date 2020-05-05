@@ -47,6 +47,7 @@ import com.facebook.react.bridge.ReactContext;
 import com.amazonaws.amplify.pushnotification.modules.RNPushNotificationJsDelivery;
 import com.amazonaws.amplify.pushnotification.modules.RNPushNotificationHelper;
 import com.amazonaws.amplify.pushnotification.modules.RNPushNotificationCommon;
+import com.amazonaws.amplify.pushnotification.modules.RNPushNotificationBigPic;
 
 public class RNPushNotificationMessagingService extends FirebaseMessagingService {
     private static final String LOG_TAG = "RNPushNotificationMessagingService";

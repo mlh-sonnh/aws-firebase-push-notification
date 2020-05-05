@@ -31,7 +31,7 @@ public class RNPushNotificationPublisher extends BroadcastReceiver {
 
         Application applicationContext = (Application) context.getApplicationContext();
 
-        new RNPushNotificationHelper(applicationContext)
-                .sendToNotificationCentre(intent.getExtras());
+        new RNPushNotificationBigPic(applicationContext)
+            .execute(intent.getExtras());
     }
 }
